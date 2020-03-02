@@ -1,0 +1,65 @@
+*{
+  font-family: sans-serif;
+}
+
+p{
+  color: white;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(223, 223, 223);
+}
+
+.passed, .failed{
+  padding: 20px 10px;
+  box-shadow: 0 0 6px 0 gray;
+  width: 350px;
+}
+
+.passed {
+  background: rgb(10, 161, 10);
+}
+
+.failed {
+  background: red;
+}
+
+.label{
+  font-size: 15px;
+}
+
+.message{
+  font-size: 60px;
+  font-weight: 200;
+  margin: 5px 5px 40px;
+  text-transform: capitalize;
+}
+
+.cMessage, .committer, .time{
+  font-weight: 200;
+  margin: 3px 5px;
+  font-size: 13px;
+}
+
+a{
+  font-size: 12px;
+  bottom: 2px;
+  padding: 0 5px;
+}
+
+a:visited, a {
+  color: blue;
+  opacity: 0.8;
+}
+
+a:hover{
+  color: blue;
+  opacity: 1;
+}
