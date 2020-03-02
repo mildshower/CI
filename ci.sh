@@ -35,6 +35,7 @@ npm test &> ../../output/info.txt
 if [[ $? != 0 ]]; then 
   result=failed
   say "Build Broken"
+  ../../hooks/buildFail.sh
 else
   result=passed
 fi

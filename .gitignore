@@ -2,3 +2,4 @@ output/artifact.html
 output/info.txt
 repo
 tokens/githubToken
+hooks/buildFail.sh
