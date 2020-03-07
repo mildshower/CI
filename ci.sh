@@ -24,6 +24,7 @@ makeArtifactPage(){
   page=${page/__committer__/${committer}}
   page=${page/__time__/${time}}
   page=${page/__cMessage__/${cMessage}}
+  page=${page/__repoName__/$(echo ${1}/${2})}
   echo $page
 }
 

@@ -1,12 +1,12 @@
-*{
+* {
   font-family: sans-serif;
 }
 
-p{
+p {
   color: white;
 }
 
-body{
+body {
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -17,10 +17,17 @@ body{
   background: rgb(223, 223, 223);
 }
 
-.passed, .failed{
+.repoName {
+  font-size: 30px;
+  font-weight: 100;
+  margin: 10px 20px 15px;
+}
+
+.passed,
+.failed {
   padding: 20px 10px;
   box-shadow: 0 0 6px 0 gray;
-  width: 350px;
+  width: 600px;
 }
 
 .passed {
@@ -31,35 +38,39 @@ body{
   background: red;
 }
 
-.label{
-  font-size: 15px;
+.label {
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.message{
+.message {
   font-size: 60px;
   font-weight: 200;
-  margin: 5px 5px 40px;
+  margin: 20px 20px 50px;
   text-transform: capitalize;
 }
 
-.cMessage, .committer, .time{
+.cMessage,
+.committer,
+.time {
   font-weight: 200;
-  margin: 3px 5px;
-  font-size: 13px;
+  margin: 8px 20px;
+  font-size: 18px;
 }
 
-a{
-  font-size: 12px;
+a {
+  font-size: 15px;
   bottom: 2px;
-  padding: 0 5px;
+  padding: 0 20px;
 }
 
-a:visited, a {
+a:visited,
+a {
   color: blue;
   opacity: 0.8;
 }
 
-a:hover{
+a:hover {
   color: blue;
   opacity: 1;
 }
