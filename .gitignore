@@ -3,3 +3,4 @@ output/info.txt
 repo
 tokens/githubToken
 hooks/buildFail.sh
+hooks/buildPass.sh
